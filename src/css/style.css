@@ -1,0 +1,655 @@
+body
+{
+    background:#FFFDE7 ; 
+    box-sizing: border-box !important;
+    overflow-x: hidden !important;
+    margin: 0px;
+    padding: 0px;
+}
+.header
+{
+    display: flex ;
+    padding: 0px;
+    width: 100%; 
+    margin: auto;
+    background-color: #ffaf49;
+}
+.headerbox
+{
+    margin: 0px;
+    width: 20%;
+}
+.logoimg
+{
+    width: 70%; 
+    margin: auto 10px;
+    height: 90px;
+}
+.searchbox
+{
+    position: relative;
+    display: flex;
+    width: 25%;
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: #ff9e22 solid 2px;
+    background-color: white;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 #ff9100b6, 0 6px 20px 0 #ff9100bf;
+}
+.Stext
+{
+    width: 90%;
+    padding: 5px;
+    border: none;
+    height: 15px;
+    background-color: rgba(240, 248, 255, 0);
+    color: black;
+    font-size: 16px;
+    outline-style: none;
+}
+::placeholder
+{
+    color: black;
+    font-size: 16px;
+}
+.headerboxs
+{
+    
+    margin: auto;
+    display: inline-flex;
+    padding: 0px;
+}
+.signin
+{
+    width: 20%;
+    height: 21px;
+    text-align: center;
+    padding: 10px !important;
+    border: 1px solid #ff9100;
+    box-shadow: 0 4px 8px 0 #ff9100b6, 0 6px 20px 0 #ff9100bf;
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
+    margin-right: 10px;
+    transition: width 1s, height 1s;
+
+}
+.signin:hover
+{
+    box-shadow: 0 4px 8px 0 #f47100, 0 6px 20px 0 #f47100;
+}
+.signfont
+{
+    text-align:  center !important;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.shape
+{
+    font-size: 33px !important;
+    margin: auto;
+    display: block;
+    color: white;
+    padding: 10px;
+    font-weight: 600 !important;
+    text-shadow:  1px 2px 5px #ff9100b6;
+}
+.shape:hover
+{
+    color: white;
+    background-color: #f47100;
+    border-radius: 50px;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+.login
+{
+    width: max-content;
+    height: min-content;
+    padding: 10px !important;
+    border: 1px solid #ff9e22;
+    background-color: #fa8100;
+    border-radius: 20px;
+    text-align:  center;
+    margin: auto !important;
+    display: flex;
+    color: white;
+    cursor: pointer;
+}
+.login:hover
+{
+    box-shadow: 0 4px 8px 0 #f47100, 0 6px 20px 0 #f47100;
+}
+.nav
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+    box-shadow: white;
+}
+.nostyle
+{
+    font-family: "Roboto Condensed", sans-serif;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+    margin: auto;
+    display: block;
+    padding: 0px;
+    width: auto;
+}
+
+.navbox
+{
+    position: absolute;
+    width: 750px;
+    height: 250px;
+    left: 100px;
+    z-index: 1;
+     
+}
+.nostyle:hover + .navdetailsMen {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    background-color: red;
+}
+.navdetailsMen
+{
+    display: flex   ;  
+    margin: auto;
+    width: 100%;
+    background-color: red;
+}
+ul
+{
+    list-style: none;
+}
+.innernavCap
+{
+    font-size: 18px;
+    font-weight: 800;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px;
+}
+.innernav
+{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.bodysite
+{
+   height: auto;
+   margin: auto;
+   padding-top: 50px !important;
+   padding-bottom: 50px;
+   background-image: url("../img/bg.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   position: relative;
+}
+.signinbox
+{
+    position: relative;
+    margin:auto;
+    padding: 20px;
+    width: 40%;
+    height: 570px;
+    border: 1px solid #fff2df66 ;
+    border-radius: 20px;
+    background-color: #fff2df;
+    opacity: 0.9;
+    z-index: 2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.headd
+{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 30px;
+    margin: auto;
+    width: 90%;
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+.signparaa
+{
+    font-family: "Roboto Condensed", sans-serif;
+    width: 73%;
+    margin: 20px auto 10px;
+    font-weight: 500;
+}
+.signpara
+{
+    font-family: "Fredoka", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+.inputbox
+{
+    display: block;
+    width: 70%;
+    height: 25px;
+    margin: auto;
+    position: relative;
+    border-radius: 10px;
+    padding: 8px;
+    border: 1px solid black;
+
+}
+
+input[type=checkbox]
+{
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+}
+.marginpara
+{
+    display: flex;
+    margin: 20px auto;
+}
+.submitbtn
+{
+    background-color: rgb(0, 94, 255);
+    border-radius: 12px;
+    padding: 8px;
+    width: 40%;
+    font-family: "Poppins", sans-serif;
+    margin: auto;
+    display: block;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer !important;
+}
+.footerboxes
+{
+    display: flex;
+    background-color: white;
+    height: 180px;
+    padding: 30px;
+    margin: 0px;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.footerbox
+{
+    width: 20%;
+    margin: auto;
+    text-decoration: none;
+    padding: 0px;
+}
+.footerlink,a
+{
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none !important; 
+    color: rgb(29, 29, 29);
+    text-align: left;
+    font-size: 14px;
+}
+.footerlinkCAP
+{
+    list-style: none;
+    text-align: left;
+    font-weight: 700;
+    font-size: 50px !important;
+    color: black;
+    margin-bottom: 10px;
+}
+footer
+{
+    width: 100%;
+    height: min-content;
+    bottom: 0px !important;
+    margin: 0px;
+    padding: 0px;
+}
+.width60
+{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    text-align:left ;
+    width: 75%;
+    padding: 10px;
+    color: white;
+}
+.width40
+{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    text-align:right ;
+    width: 25%;
+    padding: 10px 20px;
+    color: white;
+}
+
+.para
+{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    color: black;
+}
+.bodyall
+{
+    margin:0px ;
+    width: 100%;
+    background-color: red;
+    display: flex;
+}
+.widthall
+{
+    display: flex;
+    width: 100%;
+    background-color: blue;
+}
+.cdetails
+{
+    width: 50%;
+    border: 1px solid black;
+    background-color: yellow;
+}
+.accinfo
+{
+    width: 50%;
+    margin: auto;
+    background-color: aqua;
+    display: block !important;
+}
+.useraccline
+{
+    margin:auto;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 100px !important;
+    z-index: 3 ;
+}
+.topic
+{
+    font-family: "Fredoka", sans-serif;
+    width: 100%;
+    margin: auto;
+    display: block;
+    margin-top: 20px !important;
+    padding-top: 2px !important;
+    text-align: center;
+}
+.space
+{
+    margin: 50px 0px;
+}
+.subsection
+{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    }
+.box
+{
+    text-align: center;
+    width: 50%;
+    height: 500px;
+    margin: 5px 10px;
+    padding: 10px 0px;
+}
+
+.minibox
+{
+    border: 1px solid gray;
+    border-radius: 3px;
+    background-color: white;
+    margin: 10px 40px;
+    padding: 10px 20px;
+    height: 490px;
+}
+
+.price
+{
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(36, 216, 240, 0.959);
+    text-align: center;
+}
+
+.promo
+{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+    text-decoration: line-through;
+}
+
+.description
+{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(240, 36, 223, 0.959);
+}
+.section
+{
+    background-color: #FFECB3;
+    width: 100%;
+    height: 100vh;
+}
+.ava
+{
+    margin-top: -10px;
+}
+
+.avay
+{
+    text-align: left;
+    list-style: disc;
+    color: green;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+}
+.accint
+{
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+    padding-left:12px;
+    border-radius: 10px;
+    background-color: #FFE0B2;
+    border: #FFB74D solid  2px   ;
+    cursor: text;
+    margin-left: 40px;
+}
+.none
+{
+    border: none;
+    cursor: help;
+}
+.accdetails
+{
+    font-size: 15px;
+    width: 50%;
+    text-align: left !important;
+    padding-left: 60px;
+}
+.usertable
+{
+    margin: auto;
+    font-family: "Fredoka", sans-serif;
+    width: 60%;
+    height: max-content;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.45);
+    margin-top: 50px !important;
+    margin-bottom: 100px !important;
+    border-radius: 30px;
+
+}
+.updatebtn
+{
+    margin-top: 50px;
+    background-color: #29B6F6;
+    padding: 20px;
+    border:none;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.updatebtn:hover
+{
+    background-color: #81D4FA;
+}
+.deletebtn
+{
+    margin-top: 50px;
+    margin-left: -35px;
+    background-color: #FF7043;
+    padding: 20px;
+    border:none;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.deletebtn:hover
+{
+    background-color: #FF8A65;
+}
+.logout
+{
+    margin-top: 50px;
+    background-color: #90A4AE;
+    padding: 20px;
+    border:none;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.logout:hover
+{
+    background-color: #B0BEC5;
+}
+
+.sizebtn
+{
+    margin-top: -30px !important;
+    padding-left: 50px;
+    margin-left: 50px !important;
+}
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    appearance: none;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+}
+input[type="radio"]:checked {
+    width: 20px;
+    height: 20px;
+    appearance: none;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    background-color: black;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+
+}
+input[type="radio"]:checked ::after {
+    width: 20px;
+    height: 20px;
+    appearance: none;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+
+}
+.Quantity
+{
+    width: 40px;
+    height: 30px;
+    font-size: 18px;
+}
+.btn 
+{
+    background-color: #ffaf49;
+    cursor: pointer;
+}
+.orderditform
+{
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+
+.alltable
+{
+    padding: 10px;
+    margin-top: 10px;
+}
+.checkoutbtn
+{
+    padding: 10px;
+    right: 30px ;
+    background-color: #ff9e22;
+    position: absolute;
+    border: none;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 400 !important;
+}
+.updatebtnaa
+{
+    width: max-content;
+    padding: 15px;
+    background-color: #ff9e22;
+    border: none;
+    border-radius: 5px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.result-box {
+    width: 40%;
+    position: absolute;
+    right: 0;
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 50px;
+    z-index: 4;
+    display: none; /* Initially hidden */
+  }
+  
+  .listboxul {
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .listboxli {
+    padding: 5px 0px;
+    list-style: none;
+    cursor: pointer;
+  }
+  .listboxli:hover {
+    background-color: #f0f0f0; /* Optional hover effect */
+  }
+  
